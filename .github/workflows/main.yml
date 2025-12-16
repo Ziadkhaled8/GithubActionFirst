@@ -1,0 +1,13 @@
+name: First Workflow
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  example-first:
+    runs-on: ubunto-latest
+
+    steps:
+      - name: print hello message
+        run: echo "This is the hello message"
