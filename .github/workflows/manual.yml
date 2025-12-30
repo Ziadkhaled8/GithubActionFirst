@@ -3,7 +3,7 @@ on:
     types: [incident_report]
 jobs:
   handle_incident: 
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps: 
       - name: Print details
         run: echo "This is incident"
