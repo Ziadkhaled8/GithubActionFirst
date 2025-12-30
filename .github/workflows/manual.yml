@@ -2,7 +2,7 @@ on:
   repository_dispatch:
     types: [incident_report]
 jobs:
-  handel_incident: 
+  handle_incident: 
     runs-on: ubuntu_latest
     steps: 
       - name: Print details
